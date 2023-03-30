@@ -11,11 +11,13 @@
 
 
 # 完成品
-
+- ボタンを押すと、選択肢が出てきて、タップしたボタンが選択されます。
+- 少し回転しながらボタンが出たり入ったりするのがこだわりポイントです。
+     <img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2918864/3ab8f5c3-b6ee-d320-d8c0-72a02f2c6a2d.gif" width=200>
 
 
 # GitHub
-
+https://github.com/dachscafe/PopUpFloatButton
 
 
 # ソースコード
