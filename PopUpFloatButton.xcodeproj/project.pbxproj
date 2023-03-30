@@ -11,6 +11,9 @@
 		14A61DD129D454F800EF0B90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A61DD029D454F800EF0B90 /* ContentView.swift */; };
 		14A61DD329D454F900EF0B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A61DD229D454F900EF0B90 /* Assets.xcassets */; };
 		14A61DD629D454F900EF0B90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A61DD529D454F900EF0B90 /* Preview Assets.xcassets */; };
+		14A61DDF29D4557500EF0B90 /* PopUpFloatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A61DDE29D4557500EF0B90 /* PopUpFloatButton.swift */; };
+		14A61DE129D4717A00EF0B90 /* SelectCircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A61DE029D4717A00EF0B90 /* SelectCircleButton.swift */; };
+		14A61DE329D4724A00EF0B90 /* ButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A61DE229D4724A00EF0B90 /* ButtonLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		14A61DD029D454F800EF0B90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		14A61DD229D454F900EF0B90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14A61DD529D454F900EF0B90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14A61DDE29D4557500EF0B90 /* PopUpFloatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpFloatButton.swift; sourceTree = "<group>"; };
+		14A61DE029D4717A00EF0B90 /* SelectCircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCircleButton.swift; sourceTree = "<group>"; };
+		14A61DE229D4724A00EF0B90 /* ButtonLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				14A61DCE29D454F800EF0B90 /* PopUpFloatButtonApp.swift */,
 				14A61DD029D454F800EF0B90 /* ContentView.swift */,
+				14A61DDE29D4557500EF0B90 /* PopUpFloatButton.swift */,
+				14A61DE029D4717A00EF0B90 /* SelectCircleButton.swift */,
+				14A61DE229D4724A00EF0B90 /* ButtonLabel.swift */,
 				14A61DD229D454F900EF0B90 /* Assets.xcassets */,
 				14A61DD429D454F900EF0B90 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A61DE329D4724A00EF0B90 /* ButtonLabel.swift in Sources */,
 				14A61DD129D454F800EF0B90 /* ContentView.swift in Sources */,
+				14A61DE129D4717A00EF0B90 /* SelectCircleButton.swift in Sources */,
 				14A61DCF29D454F800EF0B90 /* PopUpFloatButtonApp.swift in Sources */,
+				14A61DDF29D4557500EF0B90 /* PopUpFloatButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

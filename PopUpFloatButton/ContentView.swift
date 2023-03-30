@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var index: Int = 1
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            Text("選択した配列のインデックス：\(index)")
+            PopUpFloatButton(
+                buttonLabelArray: [
+                    ButtonLabel(systemName: "0.circle", label: "Zero"),
+                    ButtonLabel(systemName: "1.circle", label: "One"),
+                    ButtonLabel(systemName: "2.circle", label: "Two"),
+                    ButtonLabel(systemName: "3.circle", label: "Three"),
+                    ButtonLabel(systemName: "4.circle", label: "Four"),
+                ],
+                index: $index
+            )
         }
-        .padding()
+        
     }
 }
 
